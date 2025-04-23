@@ -13,7 +13,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://rl-legal-summarizer-dutt.vercel.app"],  # Allow requests from Next.js frontend
+    allow_origins=["https://rl-legal-summarizer.vercel.app"],  # Allow requests from Next.js frontend
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods (POST, GET, etc.)
     allow_headers=["*"],  # Allow all headers
